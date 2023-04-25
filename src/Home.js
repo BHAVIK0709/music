@@ -1,8 +1,23 @@
 import React from 'react'
+import './Home.css'
+import GridTab from './GridTab'
 
 function Home() {
   return (
-    <h1>This is Home Page</h1>
+    <div className="music-player">
+        <div className="grid">
+        <GridTab/>
+        <GridTab/>
+        <GridTab/>
+        <GridTab/>
+        <GridTab/>
+        <GridTab/>
+        <GridTab/>
+        <GridTab/>
+            
+        </div>
+    </div>
+
   )
 }
 
